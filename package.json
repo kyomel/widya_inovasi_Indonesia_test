@@ -1,0 +1,35 @@
+{
+  "name": "test-widya-inovasi-indonesia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "nodemon bin/www -q"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyomel/widya_inovasi_Indonesia_test.git"
+  },
+  "author": "kyomel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyomel/widya_inovasi_Indonesia_test/issues"
+  },
+  "homepage": "https://github.com/kyomel/widya_inovasi_Indonesia_test#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.3.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
